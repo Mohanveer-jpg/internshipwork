@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f14848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #f4e61c;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(38, 35, 35, 0.2);
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    flex: 1;
+  }
+  
+  input {
+    flex: 2;
+    padding: 5px;
+  }
